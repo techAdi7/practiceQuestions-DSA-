@@ -173,7 +173,7 @@ public class linkedList {
       Node curr = this.head;
 
       for (int i = 0; i < this.length; i++) {
-        System.out.print(curr.info +" -> "); 
+        System.out.print(curr.info + " -> ");
         curr = curr.Next;
       }
 
@@ -184,9 +184,9 @@ public class linkedList {
   public static void main(String[] args) {
 
     MyLinkedList l = new MyLinkedList();
-   l.addAtHead(34);
-   l.addAttail(56);
-   l.addAtIndex(2, 74);
-   l.display();
+    l.addAtHead(34);
+    l.addAttail(56);
+    l.addAtIndex(2, 74);
+    l.display();
   }
 }
